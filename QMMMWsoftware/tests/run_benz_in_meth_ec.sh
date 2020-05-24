@@ -10,12 +10,13 @@ source $QMMMW_DIR/bin/ms2.env
 
 #echo "++++++++++run benz in meth (Electrostatic coupling)++++++++++"
 cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/benz_in_meth_ec
+sed -i -e 's/nh3/mol/g' job.sh
 chmod +x job.sh
 ./job.sh
 
 #echo "++++++++++get xyz++++++++++"
 cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/benz_in_meth_ec/master
-python $QMMMW_DIR/tools/xyz_tool.py dump.xyz -s -d data.benz_in_meth -o out.xyz
+python $QMMMW_DIR/tools/xyz_tool.py dump.xyz -s -d data.mol -o out.xyz
 
 #echo "++++++++++plot++++++++++"
 jmol out.xyz

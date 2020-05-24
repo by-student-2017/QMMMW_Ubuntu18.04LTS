@@ -39,6 +39,7 @@ sudo apt install -y libssl-dev
 sudo apt install -y csh
 sudo apt install -y zlib1g-dev
 sudo apt install -y make
+sudo apt install -y jmol
 
 echo "++++++++++unpack++++++++++"
 tar zxvf qmmmw-1.0.tar.gz

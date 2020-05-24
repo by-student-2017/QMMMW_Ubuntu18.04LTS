@@ -12,7 +12,7 @@ Test
 2. ./run_32water_mc.sh
 
 References
-[1] C. Ma et al., Comput. Phys. Commun. 195 (2015) 191-198.
+[1] C. Ma et al., Comp. Phys. Comm. 195 (2015) 191-198.
   QMMMW: A wrapper for QM/MM simulations with Quantum ESPRESSO  and LAMMPS
   Computer Physics Communications
   Volume 195, October 2015, Pages 191-198.

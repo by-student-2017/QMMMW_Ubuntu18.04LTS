@@ -15,7 +15,7 @@ chmod +x job.sh
 
 #echo "++++++++++get xyz++++++++++"
 cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/ammonia_mc/master
-python $QMMMW_DIR/tools/xyz_tool.py dump.xyz -s -d data.ammonia -o out.xyz
+python $QMMMW_DIR/tools/xyz_tool.py dump.xyz -s -d data.nh3 -o out.xyz
 
 #echo "++++++++++plot++++++++++"
 jmol out.xyz
