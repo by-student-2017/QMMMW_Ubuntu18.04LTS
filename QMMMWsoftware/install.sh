@@ -86,7 +86,15 @@ nkf -Lu --in-place ./run_32water_mc.sh
 nkf -Lu --in-place ./run_32water_ec.sh
 nkf -Lu --in-place ./run_alanine_mc.sh
 nkf -Lu --in-place ./run_alanine_ec.sh
+nkf -Lu --in-place ./run_ammonia_mc.sh
+nkf -Lu --in-place ./run_ammonia_ec.sh
+nkf -Lu --in-place ./run_benz_in_meth_mc.sh
+nkf -Lu --in-place ./run_benz_in_meth_ec.sh
 chmod +x ./run_32water_mc.sh
 chmod +x ./run_32water_ec.sh
 chmod +x ./run_alanine_mc.sh
 chmod +x ./run_alanine_ec.sh
+chmod +x ./run_ammonia_mc.sh
+chmod +x ./run_ammonia_ec.sh
+chmod +x ./run_benz_in_meth_mc.sh
+chmod +x ./run_benz_in_meth_ec.sh

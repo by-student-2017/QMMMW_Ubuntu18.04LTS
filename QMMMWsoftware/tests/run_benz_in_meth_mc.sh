@@ -8,14 +8,14 @@ export ESPRESSO_DIR=$QMMMWsoftware_PATH/espresso-5.0.2
 export LAMMPS_DIR=$QMMMWsoftware_PATH/lammps-30Oct14
 source $QMMMW_DIR/bin/ms2.env
 
-#echo "++++++++++run alanine (Mechanical coupling)++++++++++"
-cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/alanine_mc
+#echo "++++++++++run benz in meth (Mechanical coupling)++++++++++"
+cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/benz_in_meth_mc
 chmod +x job.sh
 ./job.sh
 
 #echo "++++++++++get xyz++++++++++"
-cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/alanine_mc/master
-python $QMMMW_DIR/tools/xyz_tool.py dump.xyz -s -d data.alanine -o out.xyz
+cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/benz_in_meth_mc/master
+python $QMMMW_DIR/tools/xyz_tool.py dump.xyz -s -d data.benz_in_meth -o out.xyz
 
 #echo "++++++++++plot++++++++++"
 jmol out.xyz
@@ -23,7 +23,7 @@ jmol out.xyz
 #avogadro out.xyz
 
 #echo "++++++++++gnuplot++++++++++"
-#cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/alanine_mc/qe
+#cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/benz_in_meth_mc/qe
 #gnuplot
 #plot"ms2.rdf.dat" w l
 #plot "ms2.msd.dat" w l

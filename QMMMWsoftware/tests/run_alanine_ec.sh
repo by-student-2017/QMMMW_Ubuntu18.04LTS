@@ -8,7 +8,7 @@ export ESPRESSO_DIR=$QMMMWsoftware_PATH/espresso-5.0.2
 export LAMMPS_DIR=$QMMMWsoftware_PATH/lammps-30Oct14
 source $QMMMW_DIR/bin/ms2.env
 
-#echo "++++++++++run 32water (Electrostatic coupling)++++++++++"
+#echo "++++++++++run alanine (Electrostatic coupling)++++++++++"
 cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/alanine_ec
 chmod +x job.sh
 ./job.sh
@@ -23,7 +23,7 @@ jmol out.xyz
 #avogadro out.xyz
 
 #echo "++++++++++gnuplot++++++++++"
-#cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/32water_mc/qe
+#cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/alanine_ec/qe
 #gnuplot
 #plot"ms2.rdf.dat" w l
 #plot "ms2.msd.dat" w l

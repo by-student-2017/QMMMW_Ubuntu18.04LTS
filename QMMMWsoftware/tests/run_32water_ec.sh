@@ -23,7 +23,7 @@ jmol out.xyz
 #avogadro out.xyz
 
 #echo "++++++++++gnuplot++++++++++"
-#cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/32water_mc/qe
+#cd $HOME/QMMMWsoftware/qmmmw-1.0/examples/32water_ec/qe
 #gnuplot
 #plot"ms2.rdf.dat" w l
 #plot "ms2.msd.dat" w l
