@@ -4,11 +4,11 @@
 -----
 
 
-Ubuntu 18.04 LTS
+# Ubuntu 18.04 LTS
 
 
 -----
-ÅEInstallation
+# Installation
 
 
 chmod +x ./install.sh
@@ -18,15 +18,15 @@ chmod +x ./install.sh
 
 
 -----
-ÅEtest
+# test
 
 
 ./run_32water_mc
 
 
 -----
-ÅEReferences
-s
+# References
+
 
 [1] C.Ma et al., Comput. Phys. Commun. 195 (2015) 191-198.
   https://www.sciencedirect.com/science/article/pii/S0010465515001678
