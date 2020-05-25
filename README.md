@@ -25,6 +25,13 @@ chmod +x ./install.sh
 
 
 -----
+# examples
+
+
+./job.sh
+
+
+-----
 # References
 
 
