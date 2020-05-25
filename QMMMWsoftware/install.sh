@@ -40,6 +40,7 @@ sudo apt install -y csh
 sudo apt install -y zlib1g-dev
 sudo apt install -y make
 sudo apt install -y jmol
+sudo apt install -y nkf
 
 echo "++++++++++unpack++++++++++"
 tar zxvf qmmmw-1.0.tar.gz

@@ -13,13 +13,11 @@ num_core=`grep 'core id' /proc/cpuinfo | sort -u | wc -l`
 source $QMMMW_DIR/bin/ms2.env
 
 cd master
-export OMP_NUM_THREADS=$num_core
 $LAMMPS_DIR/src/lmp_ms2 < mol.in > mol.out &
 
 sleep 5
 
 cd ../slave
-export OMP_NUM_THREADS=$num_core
 $LAMMPS_DIR/src/lmp_ms2 < mol.in > mol.out &
 
 sleep 5
