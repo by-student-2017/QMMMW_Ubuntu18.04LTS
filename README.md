@@ -18,17 +18,20 @@ chmod +x ./install.sh
 
 
 -----
-# test
-
-
-./run_32water_mc
-
-
------
 # examples
 
 
+chmod +x ./job.sh
+
+
 ./job.sh
+
+
+-----
+# test
+
+
+./run_32water_mc.sh
 
 
 -----
